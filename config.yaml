@@ -10,7 +10,6 @@ cfw-bypass:
   - "*.music.126.net"
   - localhost
   - 127.*
-  - 10.*
   - 172.16.*
   - 172.17.*
   - 172.18.*
@@ -105,7 +104,7 @@ Proxy Group:
 Rule:
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
-  - IP-CIDR,10.0.0.0/8,DIRECT,Ⓜ️ 微软服务
+  - IP-CIDR,10.0.0.0/8,microsoft,Ⓜ️ 微软服务
   - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
   - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
   - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
